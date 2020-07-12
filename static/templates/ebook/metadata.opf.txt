@@ -1,0 +1,29 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>{{name}}</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="{{developerNameSortOrder}}">{{developerName}}</dc:creator>
+    <dc:identifier opf:scheme="uuid" id="uuid_id">{{uuidContent}}</dc:identifier>
+    <dc:contributor opf:file-as="{{applicationId}}" opf:role="bkp">{{application}} [{{{developerLink}}}]</dc:contributor>
+    <dc:date>{{date}}</dc:date>
+    <dc:publisher>{{developerName}} ({{{developerLink}}})</dc:publisher>
+    <dc:subject>CS ЦС</dc:subject>
+    <dc:language>ru</dc:language>
+    <dc:identifier opf:scheme="{{applicationId}}">{{uuidContributer}}</dc:identifier>
+    <meta content="{{developerId}}" name="{{applicationId}}:author_link_map"/>
+    <meta name="{{applicationId}}:title_sort" content="{{name}}"/>
+    <meta name="{{applicationId}}:author_link_map" content="{&quot;{{developerName}}&quot;: &quot;&quot;}"/>
+	<meta name="logo" content="logo"/>
+  </metadata>
+  <manifest>{{#fileNames}}{{>item}}{{/fileNames}}
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="stylesheet.css" id="idCss" media-type="text/css"/>
+    <item href="PonomarUnicode.ttf" id="idCsFont" media-type="application/x-font-truetype"/>
+    <item href="logo.png" id="logo" media-type="image/png" />
+  </manifest>
+  <spine toc="ncx">{{#fileNames}}{{>itemref}}{{/fileNames}}
+  </spine>
+  <guide>
+    <reference href="titlepage.xhtml" title="Cover" type="cover"/>
+  </guide>
+</package>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <title>Title</title>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+</head>
+<body class="{{textSizeClass}}">
+<h4 class="cs">Ѱало́мъ {{psalom}}</h4>
+<table border="0">
+  <thead>
+  <tr>
+    <th></th>
+    {{#names}}<th>{{.}}</th>
+    {{/names}}
+  </tr>
+  </thead>
+  <tbody>
+  {{#lines}}<tr>
+    <td scope="col" class="lineNumber">{{lineNumber}}</td>
+    {{#translations}}<td scope="col" class="{{classes}}">{{{text}}}</td>
+    {{/translations}}
+  </tr>{{/lines}}
+  </tbody>
+</table>
+</body>
+</html>

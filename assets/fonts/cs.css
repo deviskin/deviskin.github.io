@@ -1,0 +1,8 @@
+.cs {
+  font-family: 'ucs', 'arial', sans-serif;
+}
+
+@font-face {
+  font-family: 'ucs';
+  src: url('PonomarUnicode.ttf');
+}
