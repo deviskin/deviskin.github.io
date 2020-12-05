@@ -6,17 +6,25 @@
   <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
 </head>
 <body class="{{textSizeClass}}">
+<h3 class="cs">Каѳи́зма {{kafizma}}</h3>
+{{#psalmy}}
 <h4 class="cs">Ѱало́мъ {{psalom}}</h4>
+
 <table border="0">
   <thead>
   <tr>
-    <th></th>
+    {{#names}}<th class="w{{translationsCount}}">{{.}}</th>
+    {{/names}}
   </tr>
   </thead>
   <tbody>
-  {{#lines}}{{#translations}}<tr><td scope="col" class="{{classes}} {{textJustifyClass}}"><span class="redLine">{{index}} </span>{{{text}}}</td></tr>
-    {{/translations}}{{/lines}}
+  <tr>
+    {{#translations}}<td scope="col" class="w{{translationsCount}} {{textJustifyClass}}">
+      {{#lines}}{{#translations}}<span class="{{classes}}"><span class="redLine">{{index}} </span><span>{{{text}}}</span> </span>{{/translations}}{{/lines}}
+    </td>{{/translations}}
+  </tr>
   </tbody>
 </table>
+{{/psalmy}}
 </body>
 </html>

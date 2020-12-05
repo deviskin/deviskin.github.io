@@ -14,8 +14,11 @@
   </tr>
   </thead>
   <tbody>
-  {{#lines}}{{#translations}}<tr><td scope="col" class="{{classes}} {{textJustifyClass}}"><span class="redLine">{{index}} </span>{{{text}}}</td></tr>
-    {{/translations}}{{/lines}}
+  <tr>
+    <td scope="col" class="{{textJustifyClass}}">
+    {{#lines}}{{#translations}}<span class="{{classes}}"><span class="redLine">{{index}} </span><span>{{{text}}}</span> </span>{{/translations}}{{/lines}}
+	</td>
+  </tr>
   </tbody>
 </table>
 </body>

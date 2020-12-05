@@ -6,7 +6,7 @@
   <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
 </head>
 <body class="{{textSizeClass}}">
-<h4 class="cs">Ѱало́мъ {{psalom}}</h4>
+<h4>Помянники</h4>
 <table border="0">
   <thead>
   <tr>
@@ -14,8 +14,8 @@
   </tr>
   </thead>
   <tbody>
-  {{#lines}}{{#translations}}<tr><td scope="col" class="{{classes}} {{textJustifyClass}}"><span class="redLine">{{index}} </span>{{{text}}}</td></tr>
-    {{/translations}}{{/lines}}
+  {{#lines}}{{#translations}}<tr><td scope="col" class="{{classes}}"><span class="redLine">{{index}} </span>{{{text}}}</td></tr>
+  {{/translations}}{{/lines}}
   </tbody>
 </table>
 </body>

@@ -13,13 +13,13 @@
 <table border="0">
   <thead>
   <tr>
-    {{#names}}<th>{{.}}</th>
+    {{#names}}<th class="w{{translationsCount}}">{{.}}</th>
     {{/names}}
   </tr>
   </thead>
   <tbody>
     {{#lines}}<tr>
-    {{#translations}}<td scope="col" class="{{classes}}"><span class="redLine">{{index}} </span>{{{text}}}</td>
+    {{#translations}}<td scope="col" class="{{classes}} w{{translationsCount}} {{textJustifyClass}}"><span class="redLine">{{index}} </span>{{{text}}}</td>
     {{/translations}}
     </tr>{{/lines}}
   </tbody>

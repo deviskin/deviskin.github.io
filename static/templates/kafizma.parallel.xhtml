@@ -14,14 +14,14 @@
   <thead>
   <tr>
     <th></th>
-    {{#names}}<th>{{.}}</th>
+    {{#names}}<th class="w{{translationsCount}}">{{.}}</th>
     {{/names}}
   </tr>
   </thead>
   <tbody>
     {{#lines}}<tr>
     <td scope="col" class="lineNumber">{{lineNumber}}</td>
-    {{#translations}}<td scope="col" class="{{classes}}">{{{text}}}</td>
+    {{#translations}}<td scope="col" class="{{classes}} w{{translationsCount}} {{textJustifyClass}}">{{{text}}}</td>
     {{/translations}}
     </tr>{{/lines}}
   </tbody>
