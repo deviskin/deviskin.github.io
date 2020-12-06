@@ -6,7 +6,7 @@
   <base href="/">  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <!--<link rel="stylesheet" type="text/css" href="styles.css">-->
-<link rel="stylesheet" href="styles.560f30e16df72680cc68.css"></head>
+<link rel="stylesheet" href="styles.fe25bd2f40b20419b7bc.css"></head>
 <body style="overflow:hidden">
   <script>
     var pageLoadedFrom = window.document.baseURI;
@@ -17,7 +17,7 @@
     var pageRequestedDoc = url.searchParams.get("doc");
     var pageRequestedEDoc = url.searchParams.get("edoc");
     var pageRequestedNightTheme = url.searchParams.get("night");
-    var thisIsNightTheme = false
+    var thisIsNightTheme = true;
     if (localStorage) {
       try {
         var vAutoTheme = localStorage.getItem('autotheme');
@@ -38,7 +38,7 @@
           var light = (currentDate.getHours() >= 6 && currentDate.getHours() < 18);
           link = paths(pageLoadedFrom, (light ? 'index.html' : 'index.night.html'));
         }
-        if (link && new URL(link).pathname != url.pathname) {
+        if (true && link && new URL(link).pathname != url.pathname) {
           window.location = new URL(link).pathname;
         }
       }
