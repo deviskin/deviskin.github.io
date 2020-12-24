@@ -309,3 +309,15 @@ p.TextTOCsubtitle2 {
   margin-bottom : 8px;
   margin-left: 100px;
 }
+
+.right {
+  text-align: right !important;
+}
+
+.w1_3 {
+  width: 33%
+}
+
+.w2_3 {
+  width: 66%
+}
