@@ -2,7 +2,18 @@
   font-family: 'ucs', 'arial', sans-serif;
 }
 
+.cs2 {
+  font-family: 'triodion-ieUcs', 'arial', sans-serif;
+}
+
 @font-face {
   font-family: 'ucs';
   src: url('PonomarUnicode.ttf');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'triodion-ieUcs';
+  src: url(triodion-ieUcs.woff2) format('woff2');
+  font-style: normal
 }
