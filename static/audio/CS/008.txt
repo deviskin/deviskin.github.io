@@ -1,0 +1,122 @@
+[
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/001_kafizma.mp3",
+    "name": "1. «Кафизма 1. Псалмы 1–8»",
+    "kafizma": 1,
+    "psalom": 1
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/002_kafizma.mp3",
+    "name": "2. «Кафизма 2. Псалмы 9–16»",
+    "kafizma": 2,
+    "psalom": 9
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/003_kafizma.mp3",
+    "name": "3. «Кафизма 3. Псалмы 17–23»",
+    "kafizma": 3,
+    "psalom": 17
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/004_kafizma.mp3",
+    "name": "4. «Кафизма 4. Псалмы 24–31»",
+    "kafizma": 4,
+    "psalom": 24
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/005_kafizma.mp3",
+    "name": "5. «Кафизма 5. Псалмы 32–36»",
+    "kafizma": 5,
+    "psalom": 32
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/006_kafizma.mp3",
+    "name": "6. «Кафизма 6. Псалмы 37–45»",
+    "kafizma": 6,
+    "psalom": 37
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/007_kafizma.mp3",
+    "name": "7. «Кафизма 7. Псалмы 46–54»",
+    "kafizma": 7,
+    "psalom": 46
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/008_kafizma.mp3",
+    "name": "8. «Кафизма 8. Псалмы 55–63»",
+    "kafizma": 8,
+    "psalom": 55
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/009_kafizma.mp3",
+    "name": "9. «Кафизма 9. Псалмы 64–69»",
+    "kafizma": 9,
+    "psalom": 64
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/010_kafizma.mp3",
+    "name": "10. «Кафизма 10. Псалмы 70–76»",
+    "kafizma": 10,
+    "psalom": 70
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/011_kafizma.mp3",
+    "name": "11. «Кафизма 11. Псалмы 77–84»",
+    "kafizma": 11,
+    "psalom": 77
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/012_kafizma.mp3",
+    "name": "12. «Кафизма 12. Псалмы 85–90»",
+    "kafizma": 12,
+    "psalom": 85
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/013_kafizma.mp3",
+    "name": "13. «Кафизма 13. Псалмы 91–100»",
+    "kafizma": 13,
+    "psalom": 91
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/014_kafizma.mp3",
+    "name": "14. «Кафизма 14. Псалмы 101–104»",
+    "kafizma": 14,
+    "psalom": 101
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/015_kafizma.mp3",
+    "name": "15. «Кафизма 15. Псалмы 105–108»",
+    "kafizma": 15,
+    "psalom": 105
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/016_kafizma.mp3",
+    "name": "16. «Кафизма 16. Псалмы 109–117»",
+    "kafizma": 16,
+    "psalom": 109
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/017_kafizma.mp3",
+    "name": "17. «Кафизма 17. Псалом 118»",
+    "kafizma": 17,
+    "psalom": 118
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/018_kafizma.mp3",
+    "name": "18. «Кафизма 18. Псалмы 119–133»",
+    "kafizma": 18,
+    "psalom": 119
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/019_kafizma.mp3",
+    "name": "19. «Кафизма 19. Псалмы 134–142»",
+    "kafizma": 19,
+    "psalom": 134
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir-vasilev/020_kafizma.mp3",
+    "name": "20. «Кафизма 20. Псалмы 143–150»",
+    "kafizma": 20,
+    "psalom": 143
+  }
+]

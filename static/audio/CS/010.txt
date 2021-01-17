@@ -1,0 +1,134 @@
+[
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/00.mp3",
+    "name": "1. Молитвы перед чтением Псалтири",
+    "kafizma": 0,
+    "psalom": -4
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/01_1-8.mp3",
+    "name": "2. Кафизма 1. Псалмы 1–8",
+    "kafizma": 1,
+    "psalom": 1
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/02_9-16.mp3",
+    "name": "3. Кафизма 2. Псалмы 9–16",
+    "kafizma": 2,
+    "psalom": 9
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/03_17-23.mp3",
+    "name": "4. Кафизма 3. Псалмы 17–23",
+    "kafizma": 3,
+    "psalom": 17
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/04_24-31.mp3",
+    "name": "5. Кафизма 4. Псалмы 24–31",
+    "kafizma": 4,
+    "psalom": 24
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/05_32-36.mp3",
+    "name": "6. Кафизма 5. Псалмы 32–36",
+    "kafizma": 5,
+    "psalom": 32
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/06_37-45.mp3",
+    "name": "7. Кафизма 6. Псалмы 37–45",
+    "kafizma": 6,
+    "psalom": 37
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/07_46-54.mp3",
+    "name": "8. Кафизма 7. Псалмы 46–54",
+    "kafizma": 7,
+    "psalom": 46
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/08_55-63.mp3",
+    "name": "9. Кафизма 8. Псалмы 55–63",
+    "kafizma": 8,
+    "psalom": 55
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/09_64-69.mp3",
+    "name": "10. Кафизма 9. Псалмы 64–69",
+    "kafizma": 9,
+    "psalom": 64
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/10_70-76.mp3",
+    "name": "11. Кафизма 10. Псалмы 70–76",
+    "kafizma": 10,
+    "psalom": 70
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/11_77-84.mp3",
+    "name": "12. Кафизма 11. Псалмы 77–84",
+    "kafizma": 11,
+    "psalom": 77
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/12_85-90.mp3",
+    "name": "13. Кафизма 12. Псалмы 85–90",
+    "kafizma": 12,
+    "psalom": 85
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/13_91-100.mp3",
+    "name": "14. Кафизма 13. Псалмы 91–100",
+    "kafizma": 13,
+    "psalom": 91
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/14_101-104.mp3",
+    "name": "15. Кафизма 14. Псалмы 101–104",
+    "kafizma": 14,
+    "psalom": 101
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/15_105-108.mp3",
+    "name": "16. Кафизма 15. Псалмы 105–108",
+    "kafizma": 15,
+    "psalom": 105
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/16_109-117.mp3",
+    "name": "17. Кафизма 16. Псалмы 109–117",
+    "kafizma": 16,
+    "psalom": 109
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/17_118.mp3",
+    "name": "18. Кафизма 17. Псалом 118",
+    "kafizma": 17,
+    "psalom": 118
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/18_119-133.mp3",
+    "name": "19. Кафизма 18. Псалмы 119–133",
+    "kafizma": 18,
+    "psalom": 119
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/19_134-142.mp3",
+    "name": "20. Кафизсма 19. Псалмы 134–142",
+    "kafizma": 19,
+    "psalom": 134
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/20_143-150.mp3",
+    "name": "21. Кафизма 20. Псалмы 143–150",
+    "kafizma": 20,
+    "psalom": 143
+  },
+  {
+    "link": "https://azbyka.ru/audio/audio1/Svjashhennoe_pisanie/psaltir_tsl_ermakov/21.mp3",
+    "name": "22. Молитвы по совершении нескольких кафизм или всей Псалтири",
+    "kafizma": 21,
+    "psalom": -4
+  }
+]
