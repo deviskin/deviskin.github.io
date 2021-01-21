@@ -12,12 +12,15 @@
   <script>
     var pageLoadedFrom = window.document.baseURI;
 
-    var url_string = window.location.href
+    var url_string = window.location.href;
     var url = new URL(url_string);
-    var pageRequestedApp = url.searchParams.get("app");
-    var pageRequestedDoc = url.searchParams.get("doc");
-    var pageRequestedEDoc = url.searchParams.get("edoc");
-    var pageRequestedNightTheme = url.searchParams.get("night");
+    var getSearchParams = function(name) {
+      return url.searchParams ? url.searchParams.get(name) : null;
+    }
+    var pageRequestedApp = getSearchParams("app");
+    var pageRequestedDoc = getSearchParams("doc");
+    var pageRequestedEDoc = getSearchParams("edoc");
+    var pageRequestedNightTheme = getSearchParams("night");
     var thisIsNightTheme = true;
     if (localStorage) {
       try {
@@ -49,5 +52,5 @@
     }
   </script>
   <app-scheduler></app-scheduler>
-<script src="runtime-es2015.1eba213af0b233498d9d.js" type="module"></script><script src="runtime-es5.1eba213af0b233498d9d.js" nomodule defer></script><script src="polyfills-es5.9e286f6d9247438cbb02.js" nomodule defer></script><script src="polyfills-es2015.690002c25ea8557bb4b0.js" type="module"></script><script src="scripts.edc970077681b3efce5d.js" defer></script><script src="main-es2015.abb75b626fcc538e36ec.js" type="module"></script><script src="main-es5.abb75b626fcc538e36ec.js" nomodule defer></script></body>
+<script src="runtime-es2015.1eba213af0b233498d9d.js" type="module"></script><script src="runtime-es5.1eba213af0b233498d9d.js" nomodule defer></script><script src="polyfills-es5.9e286f6d9247438cbb02.js" nomodule defer></script><script src="polyfills-es2015.690002c25ea8557bb4b0.js" type="module"></script><script src="scripts.edc970077681b3efce5d.js" defer></script><script src="main-es2015.7461dfa452c6d09dac66.js" type="module"></script><script src="main-es5.7461dfa452c6d09dac66.js" nomodule defer></script></body>
 </html>
