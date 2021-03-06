@@ -321,3 +321,7 @@ p.TextTOCsubtitle2 {
 .w2_3 {
   width: 66%
 }
+
+.hidden {
+  visibility:hidden;
+}

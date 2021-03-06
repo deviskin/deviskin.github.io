@@ -1,4 +1,4 @@
-100:1 Salmo de acción de gracias
+*100:1 Salmo de acción de gracias
 100:2 Cantad alegres a Dios, habitantes de toda la tierra.
 100:3 Servid a Jehová con alegría; venid ante su presencia con regocijo.
 100:4 Reconoced que Jehová es Dios; él nos hizo y no nosotros a nosotros mismos; pueblo suyo somos y ovejas de su prado.

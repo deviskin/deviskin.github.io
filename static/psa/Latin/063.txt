@@ -1,4 +1,4 @@
-PSALMUS. David, cum in deserto Iudae commoraretur.
+*PSALMUS. David, cum in deserto Iudae commoraretur.
 Deus, Deus meus es tu, ad te de luce vigilo. Sitivit in te anima mea, te desideravit caro mea. In terra deserta et arida et inaquosa,
 sic in sancto apparui tibi, ut viderem virtutem tuam et gloriam tuam.
 Quoniam melior est misericordia tua super vitas, labia mea laudabunt te.

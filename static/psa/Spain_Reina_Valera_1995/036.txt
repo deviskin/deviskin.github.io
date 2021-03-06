@@ -1,4 +1,4 @@
-Salmo de David
+*Salmo de David
 37:1 No te impacientes a causa de los malignos ni tengas envidia de los malhechores,
 37:2 porque como la hierba serán pronto cortados y como la hierba verde se secarán.
 37:3 Confía en Jehová y haz el bien; habitarás en la tierra y te apacentarás de la verdad.
@@ -8,6 +8,7 @@ Salmo de David
 37:7 Guarda silencio ante Jehová y espera en él. No te alteres con motivo del que prospera en su camino, por el hombre que hace lo malo.
 37:8 Deja la ira y desecha el enojo; no te excites en manera alguna a hacer lo malo,
 37:9 porque los malignos serán destruidos, pero los que esperan en Jehová heredarán la tierra,
+
 37:10 pues dentro de poco no existirá el malo; observarás su lugar, y ya no estará allí.
 37:11 Pero los mansos heredarán la tierra y se recrearán con abundancia de paz.
 37:12 Maquina el impío contra el justo y rechina contra él sus dientes.

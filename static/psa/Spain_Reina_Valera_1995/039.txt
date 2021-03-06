@@ -1,4 +1,4 @@
-40:1 Al músico principal. Salmo de David
+*40:1 Al músico principal. Salmo de David
 40:2 Pacientemente esperé a Jehová, y se inclinó a mí y oyó mi clamor,
 40:3 y me hizo sacar del pozo de la desesperación, del lodo cenagoso; puso mis pies sobre peña y enderezó mis pasos.
 40:4 Puso luego en mi boca cántico nuevo, alabanza a nuestro Dios. Verán esto muchos y temerán, y confiarán en Jehová.
@@ -6,6 +6,7 @@
 40:6 Has aumentado, Jehová, Dios mío, tus maravillas y tus pensamientos para con nosotros. No es posible contarlos ante ti. Aunque yo los anunciara y hablara de ellos, no podrían ser enumerados.
 40:7 Sacrificio y ofrenda no te agradan; has abierto mis oídos; holocausto y expiación no has demandado.
 40:8 Entonces dije: «He aquí, vengo; en el rollo del libro está escrito de mí;
+
 40:9 el hacer tu voluntad, Dios mío, me ha agradado, y tu Ley está en medio de mi corazón.»
 40:10 He anunciado justicia en la gran congregación; he aquí, no refrené mis labios, Jehová, tú lo sabes.
 40:11 No encubrí tu justicia dentro de mi corazón; he publicado tu fidelidad y tu salvación; no oculté tu misericordia y tu verdad en la gran congregación.
