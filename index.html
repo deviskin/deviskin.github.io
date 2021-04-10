@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#00364D">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <!--<link rel="stylesheet" type="text/css" href="styles.css">-->
-<link rel="stylesheet" href="styles.4f1b8563b5769cf1209e.css"></head>
+<link rel="stylesheet" href="styles.6b21e1a9ab8d2e846f43.css"></head>
 <body style="overflow:hidden">
   <script>
     var pageLoadedFrom = window.document.baseURI;
@@ -21,6 +21,7 @@
     var pageRequestedDoc = getSearchParams("doc");
     var pageRequestedEDoc = getSearchParams("edoc");
     var pageRequestedNightTheme = getSearchParams("night");
+    var pageRequestedReadonly = getSearchParams("readonly") == 'true';
     var thisIsNightTheme = false
     if (localStorage) {
       try {
@@ -35,7 +36,7 @@
           return left + ((left.endsWith('/') || left.endsWith('\\')) ? '' : '/') + right;
         }
         if (pageRequestedNightTheme != null) {
-          link = paths(pageLoadedFrom,((pageRequestedNightTheme=='true')? 'index.night.html' : 'index.html'));
+          link = paths(pageLoadedFrom,((pageRequestedNightTheme == "true")? 'index.night.html' : 'index.html'));
         } else  if (autoswitch){
           var light = false;
           var currentDate = new Date();
@@ -43,7 +44,19 @@
           link = paths(pageLoadedFrom, (light ? 'index.html' : 'index.night.html'));
         }
         if (link && new URL(link).pathname != url.pathname) {
-          window.location = new URL(link).pathname;
+          var qparams = [
+            {'key':'app', 'value': pageRequestedApp},
+            {'key':'night', 'value': (pageRequestedNightTheme != null) ? pageRequestedNightTheme : null},
+            {'key':'readonly', 'value': pageRequestedReadonly}
+          ];
+          var queryParams = '';
+          for(var i = 0; i < qparams.length;++i) {
+            var entry = qparams[i];
+            if (entry.value != '' && entry.value != null) {
+              queryParams += (queryParams ? '&' : '') + entry.key + '=' + entry.value;
+            }
+          }
+          window.location = new URL(link).pathname + (queryParams?'?'+queryParams:'');
         }
       }
       catch(e)
@@ -52,5 +65,5 @@
     }
   </script>
   <app-scheduler></app-scheduler>
-<script src="runtime-es2015.1eba213af0b233498d9d.js" type="module"></script><script src="runtime-es5.1eba213af0b233498d9d.js" nomodule defer></script><script src="polyfills-es5.9e286f6d9247438cbb02.js" nomodule defer></script><script src="polyfills-es2015.690002c25ea8557bb4b0.js" type="module"></script><script src="scripts.edc970077681b3efce5d.js" defer></script><script src="main-es2015.9854ae7567933333d7bb.js" type="module"></script><script src="main-es5.9854ae7567933333d7bb.js" nomodule defer></script></body>
+<script src="runtime-es2015.1eba213af0b233498d9d.js" type="module"></script><script src="runtime-es5.1eba213af0b233498d9d.js" nomodule defer></script><script src="polyfills-es5.9e286f6d9247438cbb02.js" nomodule defer></script><script src="polyfills-es2015.690002c25ea8557bb4b0.js" type="module"></script><script src="scripts.66c49afbdb10ab2f8d69.js" defer></script><script src="main-es2015.7c8a837c4f65dd2fb164.js" type="module"></script><script src="main-es5.7c8a837c4f65dd2fb164.js" nomodule defer></script></body>
 </html>
