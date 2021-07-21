@@ -18,6 +18,7 @@
       return url.searchParams ? url.searchParams.get(name) : null;
     }
     var pageRequestedApp = getSearchParams("app");
+    var pageRequestedRoute = getSearchParams("route");
     var pageRequestedDoc = getSearchParams("doc");
     var pageRequestedEDoc = getSearchParams("edoc");
     var pageRequestedNightTheme = getSearchParams("night");
@@ -46,6 +47,7 @@
         if (link && new URL(link).pathname != url.pathname) {
           var qparams = [
             {'key':'app', 'value': pageRequestedApp},
+            {'key':'route', 'value': pageRequestedRoute},
             {'key':'night', 'value': (pageRequestedNightTheme != null) ? pageRequestedNightTheme : null},
             {'key':'readonly', 'value': pageRequestedReadonly}
           ];
@@ -65,5 +67,5 @@
     }
   </script>
   <app-scheduler></app-scheduler>
-<script src="runtime-es2015.1eba213af0b233498d9d.js" type="module"></script><script src="runtime-es5.1eba213af0b233498d9d.js" nomodule defer></script><script src="polyfills-es5.9e286f6d9247438cbb02.js" nomodule defer></script><script src="polyfills-es2015.690002c25ea8557bb4b0.js" type="module"></script><script src="scripts.66c49afbdb10ab2f8d69.js" defer></script><script src="main-es2015.5e5d8593f4a711f28389.js" type="module"></script><script src="main-es5.5e5d8593f4a711f28389.js" nomodule defer></script></body>
+<script src="runtime-es2015.1eba213af0b233498d9d.js" type="module"></script><script src="runtime-es5.1eba213af0b233498d9d.js" nomodule defer></script><script src="polyfills-es5.9e286f6d9247438cbb02.js" nomodule defer></script><script src="polyfills-es2015.690002c25ea8557bb4b0.js" type="module"></script><script src="scripts.66c49afbdb10ab2f8d69.js" defer></script><script src="main-es2015.73413167c55d46b6bcd2.js" type="module"></script><script src="main-es5.73413167c55d46b6bcd2.js" nomodule defer></script></body>
 </html>
