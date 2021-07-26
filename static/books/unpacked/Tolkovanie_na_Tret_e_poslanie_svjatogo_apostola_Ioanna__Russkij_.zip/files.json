@@ -1,5 +1,14 @@
 [
-  "000.txt",
-  "000.txt.json",
-  "settings.json"
+  {
+    "name": "000.txt",
+    "path": "000.txt"
+  },
+  {
+    "name": "000.txt.json",
+    "path": "000.txt.json"
+  },
+  {
+    "name": "settings.json",
+    "path": "settings.json"
+  }
 ]

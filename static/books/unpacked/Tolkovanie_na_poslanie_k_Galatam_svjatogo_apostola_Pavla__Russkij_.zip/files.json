@@ -1,17 +1,62 @@
 [
-  "000.txt",
-  "000.txt.json",
-  "001.txt",
-  "001.txt.json",
-  "002.txt",
-  "002.txt.json",
-  "003.txt",
-  "003.txt.json",
-  "004.txt",
-  "004.txt.json",
-  "005.txt",
-  "005.txt.json",
-  "006.txt",
-  "006.txt.json",
-  "settings.json"
+  {
+    "name": "000.txt",
+    "path": "000.txt"
+  },
+  {
+    "name": "000.txt.json",
+    "path": "000.txt.json"
+  },
+  {
+    "name": "001.txt",
+    "path": "001.txt"
+  },
+  {
+    "name": "001.txt.json",
+    "path": "001.txt.json"
+  },
+  {
+    "name": "002.txt",
+    "path": "002.txt"
+  },
+  {
+    "name": "002.txt.json",
+    "path": "002.txt.json"
+  },
+  {
+    "name": "003.txt",
+    "path": "003.txt"
+  },
+  {
+    "name": "003.txt.json",
+    "path": "003.txt.json"
+  },
+  {
+    "name": "004.txt",
+    "path": "004.txt"
+  },
+  {
+    "name": "004.txt.json",
+    "path": "004.txt.json"
+  },
+  {
+    "name": "005.txt",
+    "path": "005.txt"
+  },
+  {
+    "name": "005.txt.json",
+    "path": "005.txt.json"
+  },
+  {
+    "name": "006.txt",
+    "path": "006.txt"
+  },
+  {
+    "name": "006.txt.json",
+    "path": "006.txt.json"
+  },
+  {
+    "name": "settings.json",
+    "path": "settings.json"
+  }
 ]
