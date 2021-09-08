@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Deviskin</title>
+  <base href="/">  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0e161b">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="styles.64dde676f11fbd812cbb.css"></head>
+<body style="overflow:hidden">
+  <script>
+    var pageLoadedFrom = window.document.baseURI;
+
+    var url_string = window.location.href;
+    var url = new URL(url_string);
+    var getSearchParams = function(name) {
+      return url.searchParams ? url.searchParams.get(name) : null;
+    }
+    var pageRequestedApp = getSearchParams("app");
+    var pageRequestedRoute = getSearchParams("route");
+    var pageRequestedDoc = getSearchParams("doc");
+    var pageRequestedEDoc = getSearchParams("edoc");
+    var pageRequestedNightTheme = getSearchParams("night");
+    var pageRequestedReadonly = getSearchParams("readonly") == 'true';
+    var thisIsNightTheme = true;
+    if (localStorage) {
+      try {
+        var vAutoTheme = localStorage.getItem('autotheme');
+        if (vAutoTheme == null) {
+          localStorage.setItem('autotheme', 'true');
+        }
+        var autoswitch = vAutoTheme == null || vAutoTheme == 'true';
+        var link = localStorage.getItem('theme');
+        localStorage.removeItem('theme');
+        var paths = function (left,right){
+          return left + ((left.endsWith('/') || left.endsWith('\\')) ? '' : '/') + right;
+        }
+        if (pageRequestedNightTheme != null) {
+          link = paths(pageLoadedFrom,((pageRequestedNightTheme == "true")? 'index.night.html' : 'index.html'));
+        } else  if (autoswitch){
+          var light = false;
+          var currentDate = new Date();
+          var light = (currentDate.getHours() >= 6 && currentDate.getHours() < 18);
+          link = paths(pageLoadedFrom, (light ? 'index.html' : 'index.night.html'));
+        }
+        if (link && new URL(link).pathname != url.pathname) {
+          var qparams = [
+            {'key':'app', 'value': pageRequestedApp},
+            {'key':'route', 'value': pageRequestedRoute},
+            {'key':'doc', 'value': pageRequestedDoc},
+            {'key':'night', 'value': (pageRequestedNightTheme != null) ? pageRequestedNightTheme : null},
+            {'key':'readonly', 'value': pageRequestedReadonly}
+          ];
+          var queryParams = '';
+          for(var i = 0; i < qparams.length;++i) {
+            var entry = qparams[i];
+            if (entry.value != '' && entry.value != null) {
+              queryParams += (queryParams ? '&' : '') + entry.key + '=' + entry.value;
+            }
+          }
+          window.location = new URL(link).pathname + (queryParams?'?'+queryParams:'');
+        }
+      }
+      catch(e)
+      {
+      }
+    }
+  </script>
+  <app-scheduler></app-scheduler>
+<script src="runtime-es2015.1eba213af0b233498d9d.js" type="module"></script><script src="runtime-es5.1eba213af0b233498d9d.js" nomodule defer></script><script src="polyfills-es5.9e286f6d9247438cbb02.js" nomodule defer></script><script src="polyfills-es2015.690002c25ea8557bb4b0.js" type="module"></script><script src="scripts.c11be393ff668fec25e4.js" defer></script><script src="main-es2015.1825e3bc7cf7ea6cd71b.js" type="module"></script><script src="main-es5.1825e3bc7cf7ea6cd71b.js" nomodule defer></script></body>
+</html>
