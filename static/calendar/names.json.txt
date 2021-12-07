@@ -1,0 +1,10 @@
+[
+	{"name": "A4 П 3x4", "names": ["calendar/settings/settings_A4_p_3_4.json.txt"]},
+	{"name": "A4 П 2x6x2", "names": ["calendar/settings/settings_A4_p_2_6_x2.json.txt"]},
+	{"name": "A4 Л 4x3", "names": ["calendar/settings/settings_A4_l_4_3.json.txt"]},
+	{"name": "A4 Л 6x2x2", "names": ["calendar/settings/settings_A4_l_6_2_x2.json.txt"]},
+	{"name": "A4 40 П 2x6", "names": ["calendar/settings/settings_A4_40_p_2_6.json.txt"]},
+	{"name": "A4 40 П 12x31", "names": ["calendar/settings/settings_A4_40_p_12_31.json.txt"]},
+	{"name": "A4 40 Л 3x4", "names": ["calendar/settings/settings_A4_40_l_3_4.json.txt"]},
+	{"name": "A4 40 Л 31x12", "names": ["calendar/settings/settings_A4_40_l_31_12.json.txt"]}
+]
