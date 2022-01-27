@@ -1,0 +1,3 @@
+[
+	{"name": "01.01.2022", "names": ["scheduler/settings/01_01_2022.txt"]}
+]
