@@ -1,4 +1,5 @@
 [
 	{"name": "01.01.2022", "names": ["scheduler/settings/01_01_2022.txt"]},
-	{"name": "01.02.2022", "names": ["scheduler/settings/01_02_2022.txt"]}
+	{"name": "01.02.2022", "names": ["scheduler/settings/01_02_2022.txt"]},
+	{"name": "01.03.2022", "names": ["scheduler/settings/01_03_2022.txt"]}
 ]
