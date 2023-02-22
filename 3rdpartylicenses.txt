@@ -1,6 +1,31 @@
 @angular/animations
 MIT
 
+@angular/cdk
+MIT
+The MIT License
+
+Copyright (c) 2023 Google LLC.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
 @angular/common
 MIT
 
@@ -32,7 +57,7 @@ MIT
 MIT
 MIT License
 
-Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
+Copyright (C) 2018-2021 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -57,7 +82,7 @@ THE SOFTWARE.
 MIT
 MIT License
 
-Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
+Copyright (C) 2018-2021 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -82,7 +107,7 @@ THE SOFTWARE.
 MIT
 MIT License
 
-Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
+Copyright (C) 2018-2021 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -107,7 +132,7 @@ THE SOFTWARE.
 MIT
 MIT License
 
-Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
+Copyright (C) 2018-2021 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -182,7 +207,7 @@ THE SOFTWARE.
 MIT
 MIT License
 
-Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
+Copyright (C) 2018-2021 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -207,7 +232,7 @@ THE SOFTWARE.
 MIT
 MIT License
 
-Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
+Copyright (C) 2018-2021 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -282,7 +307,7 @@ THE SOFTWARE.
 MIT
 MIT License
 
-Copyright (C) 2018 by Marijn Haverbeke <marijnh@gmail.com> and others
+Copyright (C) 2018 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -384,7 +409,7 @@ THE SOFTWARE.
 
 d3
 ISC
-Copyright 2010-2021 Mike Bostock
+Copyright 2010-2023 Mike Bostock
 
 Permission to use, copy, modify, and/or distribute this software for any purpose
 with or without fee is hereby granted, provided that the above copyright notice
@@ -401,7 +426,7 @@ THIS SOFTWARE.
 
 d3-array
 ISC
-Copyright 2010-2021 Mike Bostock
+Copyright 2010-2023 Mike Bostock
 
 Permission to use, copy, modify, and/or distribute this software for any purpose
 with or without fee is hereby granted, provided that the above copyright notice
@@ -469,7 +494,7 @@ THIS SOFTWARE.
 
 d3-color
 ISC
-Copyright 2010-2021 Mike Bostock
+Copyright 2010-2022 Mike Bostock
 
 Permission to use, copy, modify, and/or distribute this software for any purpose
 with or without fee is hereby granted, provided that the above copyright notice
@@ -486,7 +511,7 @@ THIS SOFTWARE.
 
 d3-contour
 ISC
-Copyright 2012-2021 Mike Bostock
+Copyright 2012-2023 Mike Bostock
 
 Permission to use, copy, modify, and/or distribute this software for any purpose
 with or without fee is hereby granted, provided that the above copyright notice
@@ -655,7 +680,7 @@ THIS SOFTWARE.
 
 d3-geo
 ISC
-Copyright 2010-2021 Mike Bostock
+Copyright 2010-2022 Mike Bostock
 
 Permission to use, copy, modify, and/or distribute this software for any purpose
 with or without fee is hereby granted, provided that the above copyright notice
@@ -727,7 +752,7 @@ THIS SOFTWARE.
 
 d3-path
 ISC
-Copyright 2015-2021 Mike Bostock
+Copyright 2015-2022 Mike Bostock
 
 Permission to use, copy, modify, and/or distribute this software for any purpose
 with or without fee is hereby granted, provided that the above copyright notice
@@ -861,7 +886,7 @@ THIS SOFTWARE.
 
 d3-shape
 ISC
-Copyright 2010-2021 Mike Bostock
+Copyright 2010-2022 Mike Bostock
 
 Permission to use, copy, modify, and/or distribute this software for any purpose
 with or without fee is hereby granted, provided that the above copyright notice
@@ -878,7 +903,7 @@ THIS SOFTWARE.
 
 d3-time
 ISC
-Copyright 2010-2021 Mike Bostock
+Copyright 2010-2022 Mike Bostock
 
 Permission to use, copy, modify, and/or distribute this software for any purpose
 with or without fee is hereby granted, provided that the above copyright notice
@@ -999,7 +1024,7 @@ THIS SOFTWARE.
 
 jszip
 (MIT OR GPL-3.0-or-later)
-JSZip is dual licensed. You may use it under the MIT license *or* the GPLv3
+JSZip is dual licensed. At your choice you may use it under the MIT license *or* the GPLv3
 license.
 
 The MIT License
@@ -2095,7 +2120,7 @@ zone.js
 MIT
 The MIT License
 
-Copyright (c) 2010-2020 Google LLC. https://angular.io/license
+Copyright (c) 2010-2022 Google LLC. https://angular.io/license
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
