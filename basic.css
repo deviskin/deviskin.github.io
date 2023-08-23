@@ -3,6 +3,10 @@ html {
   color: lightgrey;
 }
 
+.night {
+  background-color: #0e161b !important;
+}
+
 body{
   padding: 1rem;
 }
