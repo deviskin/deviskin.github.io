@@ -27,9 +27,7 @@ var basicRedirect = function(appName) {
 		    appName = appName? appName : base.app;
         var qq = basicMergeParams([{key:'app',value:appName},{key:'route',value:base.app}]);
         var r = base.url + (light?'/index.html':'/index.night.html') + (qq?'?'+qq:'');
-        setTimeout(function(){
-            window.location = r;
-        }, 0);
+        window.location = r;
     } catch (e) {
     }
 }
