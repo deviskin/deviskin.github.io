@@ -11,11 +11,10 @@
   <meta name="description" content="Книги православной Библии на церковнославянском и греческом языках, а также в синодальном переводе. Помянник. Расписание богослужений. Калькулятор. Интегралы. Производные. Символьные вычисления. Шахматы.">
   <meta name="keywords" content="Книги, православная Библия, Помянник, Расписание богослужений, Крест, Калькулятор, Интегралы, Производные, Символьные вычисления, Шахматы"/>
   <link rel="stylesheet" href="basic.css" crossorigin="anonymous" integrity="sha384-0nv9cxJVOAcntm1p2g9MC1iidYsGZcsS5oOxxTE+H/PKJtIE6YkMbTwsGLyY2JFj">
-<link rel="stylesheet" href="styles.12de8d7145aa30c6.css" crossorigin="anonymous" integrity="sha384-QqGjs3kPkClvd4s/ViLrmLr9qjge09qNLlmDJOhevECeqssxAG36lukKXEE9p2UG"></head>
-<body class="bgColorx">
+<link rel="stylesheet" href="styles.ab5d2f1857908e1c.css" crossorigin="anonymous" integrity="sha384-AN5AFWiukDV/VNLTMPKTHOi5rONVQZ7Sz2v+sjn/pek7LkjZS6oT9x0D/212WJH9"></head>
+<body>
   <script>
     var pageLoadedFrom = window.document.baseURI;
-
     var url_string = window.location.href;
     var url = new URL(url_string);
     var getSearchParams = function(name) {
@@ -27,48 +26,6 @@
     var pageRequestedEDoc = getSearchParams("edoc");
     var pageRequestedNightTheme = getSearchParams("night");
     var pageRequestedReadonly = getSearchParams("readonly") == 'true';
-    var thisIsNightTheme = false
-    if (localStorage) {
-      try {
-        var vAutoTheme = localStorage.getItem('autotheme');
-        if (vAutoTheme == null) {
-          localStorage.setItem('autotheme', 'true');
-        }
-        var autoswitch = vAutoTheme == null || vAutoTheme == 'true';
-        var link = localStorage.getItem('theme');
-        var paths = function (left,right){
-          return left + ((left.endsWith('/') || left.endsWith('\\')) ? '' : '/') + right;
-        }
-        if (pageRequestedNightTheme != null) {
-          link = paths(pageLoadedFrom,((pageRequestedNightTheme == "true")? 'index.night.html' : 'index.html'));
-        } else  if (autoswitch){
-          var light = false;
-          var currentDate = new Date();
-          var light = (currentDate.getHours() >= 6 && currentDate.getHours() < 18);
-          link = paths(pageLoadedFrom, (light ? 'index.html' : 'index.night.html'));
-        }
-        if (link && new URL(link).pathname != url.pathname) {
-          var qparams = [
-            {'key':'app', 'value': pageRequestedApp},
-            {'key':'route', 'value': pageRequestedRoute},
-            {'key':'doc', 'value': pageRequestedDoc},
-            {'key':'night', 'value': (pageRequestedNightTheme != null) ? pageRequestedNightTheme : null},
-            {'key':'readonly', 'value': pageRequestedReadonly}
-          ];
-          var queryParams = '';
-          for(var i = 0; i < qparams.length;++i) {
-            var entry = qparams[i];
-            if (entry.value != '' && entry.value != null) {
-              queryParams += (queryParams ? '&' : '') + entry.key + '=' + entry.value;
-            }
-          }
-          window.location = new URL(link).pathname + (queryParams?'?'+queryParams:'');
-        }
-      }
-      catch(e)
-      {
-      }
-    }
   </script>
   <div id="hideme">
     <h4>Девискин</h4>
@@ -86,5 +43,5 @@
     })();
   </script>
   <app-root></app-root>
-<script src="runtime.4364088627b29f05.js" type="module" crossorigin="anonymous" integrity="sha384-1ednKKhzOcTbBVp/YnumaC6iYBmTpqACf6TgmdJxxH1NlSnql9Owm+6q5J75Ghzl"></script><script src="polyfills.6dd0fdecd489615a.js" type="module" crossorigin="anonymous" integrity="sha384-jtAYhrFH9sqFXB7gLWWbCGcrLHbFvXe/oyVSqRRm8q91s64rk5lTF1Jj68J3db9f"></script><script src="scripts.ee526269b6867179.js" defer crossorigin="anonymous" integrity="sha384-WYjTG7oI6Nd/UN0nxWbWjDoy1ONVElYB2/8dA1xM80HbsiDRIuc8k8125uh7taiX"></script><script src="main.1e32d05fa6c926c3.js" type="module" crossorigin="anonymous" integrity="sha384-V5iDR3a51P8UDHpb24LcWB0oLMKWGnhm0u5iCi6U/dwUFVQojNmwVu+XrE6V9iyt"></script></body>
+<script src="runtime.dd988624a77cfbc6.js" type="module" crossorigin="anonymous" integrity="sha384-qaazXlzxI93yymfPiutWBeyy1PQ/X5SMMm4AQqcDCBhqwgqQs/yKAjHR/5ZO479v"></script><script src="polyfills.6dd0fdecd489615a.js" type="module" crossorigin="anonymous" integrity="sha384-jtAYhrFH9sqFXB7gLWWbCGcrLHbFvXe/oyVSqRRm8q91s64rk5lTF1Jj68J3db9f"></script><script src="scripts.ee526269b6867179.js" defer crossorigin="anonymous" integrity="sha384-WYjTG7oI6Nd/UN0nxWbWjDoy1ONVElYB2/8dA1xM80HbsiDRIuc8k8125uh7taiX"></script><script src="main.787ded3d3c4a00e8.js" type="module" crossorigin="anonymous" integrity="sha384-hrm8XVrzB1dRJSbHijxOVOUFEVB3lpcX4NMp7Ah9klFCVwfy0YoZ76WLxyFt6uiY"></script></body>
 </html>

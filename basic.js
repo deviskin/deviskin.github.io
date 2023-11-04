@@ -18,15 +18,10 @@ var basicMergeParams = function(qparams) {
 }
 var basicRedirect = function(appName) {
     try {
-        var currentDate = new Date();
-        var light = (currentDate.getHours() >= 6 && currentDate.getHours() < 18);
-        if (!light) {
-          document.querySelector('html').setAttribute('class', 'night');
-        }
         var base = basicReduce(window.location.href);
 		    appName = appName? appName : base.app;
         var qq = basicMergeParams([{key:'app',value:appName},{key:'route',value:base.app}]);
-        var r = base.url + (light?'/index.html':'/index.night.html') + (qq?'?'+qq:'');
+        var r = base.url + '/index.html' + (qq?'?'+qq:'');
         window.location = r;
     } catch (e) {
     }
