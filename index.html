@@ -17,15 +17,15 @@
     var pageLoadedFrom = window.document.baseURI;
     var url_string = window.location.href;
     var url = new URL(url_string);
-    var getSearchParams = function(name) {
-      return url.searchParams ? url.searchParams.get(name) : null;
+    var getSearchParams = function(names) {
+      return url.searchParams ? names.reduce((prev,cur)=>prev?prev:url.searchParams.get(cur),null) : null;
     }
-    var pageRequestedApp = getSearchParams("app");
-    var pageRequestedRoute = getSearchParams("route");
-    var pageRequestedDoc = getSearchParams("doc");
-    var pageRequestedEDoc = getSearchParams("edoc");
-    var pageRequestedNightTheme = getSearchParams("night");
-    var pageRequestedReadonly = getSearchParams("readonly") == 'true';
+    var pageRequestedApp = getSearchParams(["a","app"]);
+    var pageRequestedRoute = getSearchParams(["r","route"]);
+    var pageRequestedDoc = getSearchParams(["d","doc"]);
+    var pageRequestedEDoc = getSearchParams(["e","edoc"]);
+    var pageRequestedNightTheme = getSearchParams(["n","night"]);
+    var pageRequestedReadonly = getSearchParams(["o","readonly"]) == 'true';
   </script>
   <div id="hideme">
     <h4>Девискин</h4>
@@ -43,5 +43,5 @@
     })();
   </script>
   <app-root></app-root>
-<script src="runtime.f43927b13a6e7e04.js" type="module" crossorigin="anonymous" integrity="sha384-aCXezzznRCvY1bvAlK+EbMD80IHaIKO0eLVOxQaVCl764+bgAtgh09Ji9mn++6Uw"></script><script src="polyfills.4a0c35540b922ba2.js" type="module" crossorigin="anonymous" integrity="sha384-sK4UnXBQqI22qXatpzocogey6n17w0tkrxaDRwMWXN6TP4gCtQsJPJnLO6QBCgDU"></script><script src="scripts.4954e6c991dfeaf8.js" defer crossorigin="anonymous" integrity="sha384-knfohie0b6VATCdTR0hO4VOXJpNP2UylmXbOM90LVGJcOo76+IbLyzCseYxC5kpf"></script><script src="main.264defde8e075c12.js" type="module" crossorigin="anonymous" integrity="sha384-QgXLvv3kybNnIOHtg8IL4ITnpjidvdeunQagk40+eYDHdyoijITGACtFzP9k1tDw"></script></body>
+<script src="runtime.c8ab2b89fc11f329.js" type="module" crossorigin="anonymous" integrity="sha384-Seg9Kp8BK06pQEo7p856g1vFvYQfljRj5l3RaFVvWWV/JBm8EN5baSd+7SsiXnv9"></script><script src="polyfills.4a0c35540b922ba2.js" type="module" crossorigin="anonymous" integrity="sha384-sK4UnXBQqI22qXatpzocogey6n17w0tkrxaDRwMWXN6TP4gCtQsJPJnLO6QBCgDU"></script><script src="scripts.4954e6c991dfeaf8.js" defer crossorigin="anonymous" integrity="sha384-knfohie0b6VATCdTR0hO4VOXJpNP2UylmXbOM90LVGJcOo76+IbLyzCseYxC5kpf"></script><script src="main.8cab698e378a9b7c.js" type="module" crossorigin="anonymous" integrity="sha384-629i87urdUIw9xrNHyeoGizJmyMONt3FCi06VAub8MQdYkklUV0ss46UiqoV+Tmr"></script></body>
 </html>

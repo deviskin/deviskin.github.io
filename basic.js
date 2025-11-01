@@ -20,7 +20,7 @@ var basicRedirect = function(appName) {
     try {
         var base = basicReduce(window.location.href);
 		    appName = appName? appName : base.app;
-        var qq = basicMergeParams([{key:'app',value:appName},{key:'route',value:base.app}]);
+        var qq = basicMergeParams([{key:'a',value:appName},{key:'r',value:base.app}]);
         var r = base.url + '/index.html' + (qq?'?'+qq:'');
         window.location = r;
     } catch (e) {
